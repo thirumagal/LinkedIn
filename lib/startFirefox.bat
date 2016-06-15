@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.48.2.jar -role wd -port 5555 -hub http://localhost:4444/grid/register -browser browserName=firefox,maxInstances=3

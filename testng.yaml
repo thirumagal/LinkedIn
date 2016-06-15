@@ -1,0 +1,7 @@
+name: Suite
+tests:
+  - name: Test
+    parameters: { browser: firefox }
+    classes:
+      - testcases.TC01_Login
+
